@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aanmaken</title>
+</head>
+<body>
+
+  <main>
+
+    <form action="">
+      <fieldset>
+        <legend>Login</legend>
+
+          <label for="naam">Naam*</label>
+          <input id="naam" type="text" placeholder="Naam"required="">
+          <label for="achternaam">Achternaam*</label>
+          <input id="achternaam" type="text" placeholder="Achternaam" required="">
+          <label for="geboorte_datum">Geboortedatum*</label>
+          <input id="geboorte_datum" type="date" placeholder="Geboorte datum" required="">
+          <label for="man">Man</label>
+          <input id="man" type="radio" name="geslacht" value="man" checked="">
+          <label for="vrouw">Vrouw</label>
+          <input id="vrouw" type="radio" name="geslacht" value="vrouw">
+          <label for="gebruikersnaam">Gebruikersnaam*</label>
+          <input id="gebruikersnaam" type="text" placeholder="Gebruikersnaam" pattern=".{3,}" required="">
+          <label for="email">Email*</label>
+          <input id="email" type="email" placeholder="Email" required="">
+          <label for="wachtwoord">Wachtwoord*</label>
+          <input id="wachtwoord" type="password" placeholder="Wachtwoord" pattern=".{3,}" required="">
+      </fieldset>
+    </form>
+
+    <button type="submit" name="aanmaken">Aanmaken</button>
+    <a href="opzet.html">Test Aanmaken</a>
+
+  </main>
+
+</body>
+</html>
