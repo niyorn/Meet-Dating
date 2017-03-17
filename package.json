@@ -1,0 +1,31 @@
+{
+  "name": "Meeting",
+  "version": "0.0.1",
+  "description": "Dating site",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "~0.8.5",
+    "express": "~4.9.0",
+    "express-myconnection": "^1.0.4",
+    "express-session": "~1.9.3",
+    "express-validator": "^3.1.2",
+    "mysql": "^2.9.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "keywords": [
+    "exercise1",
+    "serverside",
+    "scripting",
+    "nodejs",
+    "course"
+  ],
+  "author": "",
+  "license": "MIT"
+}
